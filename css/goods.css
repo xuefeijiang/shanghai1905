@@ -1,0 +1,69 @@
+#list{overflow: hidden;}
+#list .left{float: left;}
+#list .left .mb10{
+    height: 40px;
+    font: 20px/2 "";
+    width: 190px;
+    text-align: center;
+    background: #f8f8f8;
+    margin: 2px 5px 0 0;;
+}
+#list .right div{
+    border: #cdcdcd 1px solid;
+}
+#list ul{
+    overflow: hidden;
+}
+#list ul li{
+    width: 240px;
+    height: 370px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    /* position: relative; */
+    float: left;
+}
+#list ul li div a.img{
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #cdcdcd;
+    border: 1px solid #cdcdcd;
+    margin-top: 10px;
+}
+#list ul li div img {
+    width: 230px;
+    height: 280px;
+}
+#list ul li div h5{
+    font-size: 20px;
+    color: #dc1f1f
+}
+#list ul li div .goodsp{
+    color: #E31939;
+    margin-bottom: 5px;
+ }
+#Pagination{
+    width: 200px;
+     margin: 0 auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

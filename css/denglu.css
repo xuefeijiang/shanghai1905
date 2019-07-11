@@ -1,0 +1,98 @@
+.m-1190{
+    width:1190px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.top .logo{
+    float: left;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.top .fanhui{
+    padding: 20px;
+    float:right;
+}
+.top .fanhui a{float:right;}
+.denglu{
+    background: #fe4c4c;
+}
+
+.denglu .m-1190{position: relative;
+    overflow: hidden;
+}
+.denglu .m-1190 .photo{ float: left;}
+.denglu .m-1190 .login{
+    position: absolute;
+     top:110px;
+    right: 0;
+    width: 360px;
+    height: auto;
+    color: #666;
+    background-color: #ffeded; }
+.denglu .m-1190 .login .huiyuna{ 
+    padding-left: 30px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 18px; }
+.denglu .m-1190 .login .mb20{ 
+   margin: 0 30px 20px;
+   width: auto;
+   font-size: 12px;
+   font-family: 宋体;
+}
+
+ .denglu .m-1190 .jingao{
+    background-color: #ffe2e2;
+    height: 28px;
+    line-height: 28px;
+ }
+.denglu .m-1190 .on #txt{
+    width: 290px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+}
+.denglu .m-1190 .tw #pass{
+    width: 290px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+}
+.denglu .m-1190 #chbx{
+    margin-right: 15px;
+}
+.denglu .m-1190 .fo #btn{
+    width: 300px;
+    height: 42px;
+    line-height: 42px;
+    border: none;
+    color: #fff;
+    background-color: #f63636;
+    text-align: center;
+}
+.denglu .m-1190 .fi ul{
+    overflow: hidden;
+}
+.denglu .m-1190 .fi .left{
+   float: left;
+}
+.denglu .m-1190 .fi .right{
+    float: right;
+ }
+ .foot{ text-align: center;
+   padding-top: 20px;}
+
+ .foot p{
+     font: 15px/30px "";
+ }
+
+
+
+
+
