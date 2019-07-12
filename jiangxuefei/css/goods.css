@@ -41,6 +41,13 @@
     color: #E31939;
     margin-bottom: 5px;
  }
+ #list ul li em{
+    width: 100px;height: 30px;line-height: 30px;
+    text-align: center;margin: 10px auto;display: block;
+    font-style: normal;
+    background: dodgerblue;
+    color: #FFF;
+ }
 #Pagination{
     width: 200px;
      margin: 0 auto;}

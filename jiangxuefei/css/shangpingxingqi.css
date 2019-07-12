@@ -20,14 +20,43 @@
 #goods .golt1{ 
     width: 418px;
     height: 418px;
-    overflow: hidden;
   position: relative;
    margin-bottom: 20px;}
+
+
 #goods .golt1 div{
     position: absolute; 
-     left: 0;top: 0 ;
-    
-   }
+     left: 0;top: 0 ;   
+}
+/* 放大镜 */
+#goods .golt1  .golt121{
+     position: absolute;
+     left:500px;top:0px;
+     /* z-index: 19; */
+     width: 300px;
+     height: 300px;  
+     display: none; 
+     overflow: hidden;  
+}
+#goods .golt1 .golt11{
+    width: 418px;
+    height: 418px;
+}
+
+#goods .golt1 .golt121 img{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+}
+#goods .golt1  .golt11 span{
+    position: absolute;left: 0;top: 0;
+    background: rgba(200,200,200,0.6);
+    display: none;}
+ #goods .golt1  .golt11  p{
+     width: 418px;height: 418px;margin: 0;
+        position: absolute;
+     z-index: 2;left: 0;top: 0;}
+
 #goods .golt1 img{
     position: absolute; 
     width: 418px;

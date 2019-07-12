@@ -71,7 +71,6 @@ obtn.onclick = function(){
                 alert("用户已注册");
                  ouser.value = "";
                  opass.value = "";
-                 
                 return;
             }
         }
@@ -89,6 +88,5 @@ obtn.onclick = function(){
         alert("注册成功");
     }
     localStorage.setItem("check",JSON.stringify(check));
-    location="D:/jiangxuefei/html/denglu.html"
-    
+    location="D:/jiangxuefei/html/denglu.html"   
 }

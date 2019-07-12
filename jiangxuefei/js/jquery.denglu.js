@@ -23,8 +23,8 @@ btn.onclick = function(){
   
     for(var i=0;i<check.length;i++){  
         if(check[i].phone == otxt.value && check[i].password ==opass.value){
-            location = "D:/jiangxuefei/html/jishihui.html";
-            console.log("成功");
+            location.href="http://localhost/jiangxuefei/html/jishihui.html";
+            console.log("1");
             return;
         }
       

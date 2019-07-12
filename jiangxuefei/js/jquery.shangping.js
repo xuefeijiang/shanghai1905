@@ -1,24 +1,24 @@
-
 class Shop{
     constructor(){
        this.goods=document.getElementById("goods");
-       this.url="http://localhost/jiangxuefei/json/shangping.json"
-       this.init();    
+       this.url="http://localhost/jiangxuefei/json/shangping.json";
+       this.init(); 
     }
     init(){
       var that=this;
        ajaxPost(this.url,function(res){
          that.res=JSON.parse(res);
-        //  console.log(res)
+        //console.log(res)
         that.display();
        })
     }
     display(){
        var str="";
-       var zhi=localStorage.getItem("zhi")
-        //  console.log(zhi)
+       var goods=localStorage.getItem("goods")
+        //   console.log(goods)
         for(var i=0;i<this.res.length;i++){
-             if(this.res[i].id==zhi){
+             if(this.res[i].id==goods){
+                 
                 str=`<div id="marp"
                 ><a href="#">首页</a>&gt
                 <a href="#" class="marpa">${this.res[i].marpa}</a>
@@ -98,7 +98,7 @@ class Shop{
                             </div>
                             <div class="mai">
                                 <a class="goumai p10">立即购买</a>
-                                <a class="jiaru p10">加入购物车</a>
+                                <a class="jiaru p10" id="cont">加入购物车</a>
                             </div>
                         </div>     
                     </div>     
@@ -106,16 +106,27 @@ class Shop{
              }
         } 
         this.goods.innerHTML=str;
-        this.show();
+        // this.show();
+        // this.addEvent();
     }
-    show(){
-        $().ready(function(){
-          $(".golt2ul li").mouseover(function(){  
-            var _index = $(this).index();
-            $(".golt1>div").eq(_index).show().siblings().hide();
-          $(this).addClass("change").siblings().removeClass("change");
-          });
-      });
-    }
-}
-new Shop();
+
+ new Shop();
+    // show(){
+    //     $().ready(function(){
+    //       $(".golt2ul li").mouseover(function(){  
+    //         var _index = $(this).index();
+    //         $(".golt1>div").eq(_index).show().siblings().hide();
+    //       $(this).addClass("change").siblings().removeClass("change");
+    //       });
+    //   });
+    // }
+  
+
+
+
+
+
+
+
+
+

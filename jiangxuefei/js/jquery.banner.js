@@ -142,8 +142,7 @@
                if(!this.autoPlay)return;//判断有没有选择自动播放
                this.t = setInterval(()=>{
                 this.changeIndex(-1);
-            },this.delayTime)
-            
+            },this.delayTime)            
 //				P4.给大框加鼠标进入和离开事件,进入就停止,离开就继续
             _this.hover(()=>{
                 clearInterval(this.t)
@@ -153,11 +152,7 @@
                 },this.delayTime)
                })
            }
-
        }
        new Banner(options);
    }
-   
-
-
 })(jQuery);

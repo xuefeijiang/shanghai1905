@@ -24,11 +24,51 @@
 .gouwu  tbody .kong{
     height: 40px;
     font: 15px/40px "";
-    padding-left: 20px;
-    
-}   
+    padding-left: 20px;   
+}
+.gouwu .margin .zong{
+    height: 50px; 
+    font: 20px/2"";
+    padding:10px 200px 0 100px; 
+} 
+.gouwu .margin .zong .money{
+    display: inline-block;
+    font: 20px/2"";
+    float:right;
+    color: #F8F8F8;
+    padding: 0 10px;
+    background: #e43a3b;
+    border-radius: 5px;
+} 
 .gouwu .del{
     width:40px;background:#ccf;
 }
-
 .gouwu th{height: 40px;}
+.gouwu tbody tr td{  border: 1px solid #e5e5e5;}
+.gouwu tbody tr td img{
+    height: 100px;
+    width:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
